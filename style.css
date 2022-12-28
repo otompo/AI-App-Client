@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #343541;
+  background: #444c9e;
 }
 
 #app {
@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background: #0771bc;
 }
 
 #chat_container {
@@ -26,16 +27,14 @@ body {
   width: 100%;
   height: 100%;
   overflow-y: scroll;
-
   display: flex;
   flex-direction: column;
   gap: 10px;
-
   -ms-overflow-style: none;
   scrollbar-width: none;
-
   padding-bottom: 20px;
   scroll-behavior: smooth;
+  background: #0771bc;
 }
 
 /* hides scrollbar */
@@ -56,7 +55,6 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -67,9 +65,7 @@ body {
   width: 36px;
   height: 36px;
   border-radius: 5px;
-
   background: #5436DA;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,7 +83,6 @@ body {
 
 .message {
   flex: 1;
-
   color: #dcdcdc;
   font-size: 20px;
   max-width: 100%;
@@ -116,6 +111,7 @@ form {
   padding: 10px;
   background: #40414F;
   border-radius: 5px;
+  border: 1px solid #fff;
   display: flex;
   flex-direction: row;
   gap: 10px;
